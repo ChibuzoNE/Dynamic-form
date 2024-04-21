@@ -1,0 +1,53 @@
+body{
+    background-color:beige;
+    box-sizing: border-box;
+    background-image: url(/images/eggHatch.jpeg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-container{
+    background-color: rgba(30, 144, 255, 0.5);
+    width: 350px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.38)
+}
+
+.form-subcontainer{
+    padding: 40px;
+}
+
+.person-info input{
+    border-radius: 3px;
+    padding: 6px;
+    width: 220px;
+    margin: 5px;
+    border: none;
+    outline: none;
+}
+
+#form-btn{
+    width: 236px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(30, 144, 255, 1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.23), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+#link{
+    text-decoration: none;
+}
