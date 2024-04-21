@@ -4,10 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dynamic Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Login Page</h1>
-    <p>Please log in with your username and password.</p>
-    
+    <div class="form-container">
+        <div class="form-subcontainer">
+            <div class="form-header">
+                <h2>Contact Information</h2>
+                <p>Complete the form below correctly!</p>
+            </div>
+            <form action="/action_page.php" method="post">
+                <div class="person-info">
+                    <input type="text" id="fname" placeholder="First Name" required value=""><br>
+                    <input type="text" id="lname" placeholder="Last Name" value=""><br>
+                    <input type="text" id="email" placeholder="Email" value=""><br>
+                    <input type="number" name="phone" id="phone" placeholder="Phone" value=""><br>
+                    <input type="submit" id="form-btn">
+                </div>
+            </form>
+            <div class="form-footer">
+            <p>It's fulfilling to translate business req. to <a href="http://www.google.com" id="link"><i>practical solution</i></a> </p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
